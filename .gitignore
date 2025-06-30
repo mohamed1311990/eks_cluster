@@ -1,0 +1,21 @@
+# Terraform state
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive variable files
+*.tfvars
+*.auto.tfvars
+
+# Crash logs
+crash.log
+
+# IDE/editor junk
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
